@@ -7,12 +7,14 @@ export default defineConfig({
 })
 ```
 
-> ⚠️ The `base` must exactly match your GitHub repo name (case-sensitive)
+5. Click **"Commit changes"** → **Commit directly to main**
 
 ---
 
-**STEP 2 — Create the GitHub Actions workflow file**
+That commit will automatically trigger your GitHub Action to rebuild and redeploy. Then:
 
-Inside your project folder, create this folder path and file:
+1. Click the **Actions** tab in your repo
+2. Watch the workflow run (takes ~2 min)
+3. Once it shows ✅ green — visit:
 ```
-.github/workflows/deploy.yml
+https://henrysigana.github.io/Hospital-management-system/
